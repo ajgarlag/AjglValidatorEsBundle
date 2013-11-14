@@ -1,0 +1,34 @@
+{
+    "name": "ajgl/validator-es-bundle",
+    "description": "Symfony bundle to provide some useful validators for Spanish codes.",
+    "type": "symfony-bundle",
+    "keywords": ["validator", "validation", "spain", "es", "symfony"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonio J. García Lagar",
+            "email": "aj@garcialagar.es"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ajgl/validator-es": "~1.0",
+        "symfony/framework-bundle": "~2.1",
+        "symfony/validator": "~2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ajgl\\Bundle\\ValidatorEs": ""
+        }
+    },
+    "target-dir": "Ajgl/Bundle/ValidatorEsBundle",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
