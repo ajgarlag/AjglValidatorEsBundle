@@ -57,7 +57,7 @@ Acme\UserBundle\Entity\User:
             - "AjglEs:Dni": ~
 ```
 
-By default, the new constraints namespaces is aliased as `AjglEs`. You can
+By default, the new constraints namespace is aliased as `AjglEs`. You can
 modify in the bundle configuration
 
 Configuration
