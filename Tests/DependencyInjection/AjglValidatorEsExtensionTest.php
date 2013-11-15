@@ -43,7 +43,9 @@ class AjglValidatorEsExtensionTest extends \PHPUnit_Framework_TestCase
     public function testContainerDefinitionsAreIgnoredIfNoValidator()
     {
         $config = Yaml::parse($this->getBundleDefaultConfig());
-        $this->extension->load($config, $this->container);
+        $this->assertNull(
+            $this->extension->load($config, $this->container)
+        );
     }
 
     public function testContainerDefinitionsAreIgnoredIfNoConfiguredValidator()
