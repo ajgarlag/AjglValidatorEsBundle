@@ -14,7 +14,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 /**
  * @author Antonio J. García Lagar <aj@garcialagar.es>
  */
-class AjglValidatorEsBundle
+class AjglValidatorEsBundle extends Bundle
 {
 
 }
