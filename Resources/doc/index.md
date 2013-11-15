@@ -69,6 +69,6 @@ file.
 ``` yaml
 # app/config/config.yml
 ajgl_validator_es:
-    namespace_alias: "Es"#"AjglEs" by default. The namespace alias.
-    validator: my_validator#validator by default. The validator service ID.
+    namespace_alias: "Es" #"AjglEs" by default. The namespace alias.
+    validator: my_validator #validator by default. The validator service ID.
 ```
