@@ -9,7 +9,7 @@ Instalation
 
 ###Download AjglValidatorEsBundle
 
-Add FOSUserBundle in your composer.json:
+Add AjglValidatorEsBundle in your composer.json:
 
 ```js
 {
