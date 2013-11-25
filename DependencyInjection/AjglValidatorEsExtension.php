@@ -11,7 +11,6 @@ namespace Ajgl\Bundle\ValidatorEsBundle\DependencyInjection;
 
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\Config\Definition\Processor;
 
 /**
  * @author Antonio J. García Lagar <aj@garcialagar.es>
@@ -20,9 +19,8 @@ class AjglValidatorEsExtension extends Extension
 {
     public function load(array $config, ContainerBuilder $container)
     {
-        $processor = new Processor();
         $configuration = new Configuration();
-        $config = $processor->processConfiguration($configuration, $config);
+        $config = $this->processConfiguration($configuration, $config);
 
         if (!$container->hasDefinition($config['validator'])) {
             return;
