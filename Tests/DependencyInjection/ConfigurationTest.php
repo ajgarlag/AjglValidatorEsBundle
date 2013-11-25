@@ -7,9 +7,9 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Ajgl\Bundle\ValidatorEs\Tests\DependencyInjection;
+namespace Ajgl\Bundle\ValidatorEsBundle\Tests\DependencyInjection;
 
-use Ajgl\Bundle\ValidatorEs\DependencyInjection\Configuration;
+use Ajgl\Bundle\ValidatorEsBundle\DependencyInjection\Configuration;
 
 /**
  * @author Antonio J. García Lagar <aj@garcialagar.es>

@@ -7,7 +7,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Ajgl\Bundle\ValidatorEs;
+namespace Ajgl\Bundle\ValidatorEsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
